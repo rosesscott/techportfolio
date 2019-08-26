@@ -1,0 +1,48 @@
+* {
+    
+    margin: 0 auto;
+    text-align: center;
+}
+
+html {
+    
+    background-color: azure;
+    font-family:  'Nanum Pen Script', cursive;
+}
+
+ul {
+    display: inline-block;
+  list-style-type: none;  
+    overflow: hidden;
+  border: 5px solid #e7e7e7;
+  background-color: #f3f3f3;
+    font-size: 23pt;
+}
+
+li {
+float: left;
+}
+
+li a {
+  display:inline-block;
+  color: #666;
+  text-align: center;
+  padding: 14px 69px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+.mytitle {
+    
+    font-size: 4em;
+    background-color: lightsteelblue;
+    width: 60%;
+}
