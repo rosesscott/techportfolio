@@ -1,48 +1,155 @@
 * {
-    
+
     margin: 0 auto;
     text-align: center;
+    box-sizing: border-box;
 }
 
 html {
-    
+
     background-color: azure;
-    font-family:  'Nanum Pen Script', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+
 }
 
 ul {
     display: inline-block;
-  list-style-type: none;  
+    list-style-type: none;
     overflow: hidden;
-  border: 5px solid #e7e7e7;
-  background-color: #f3f3f3;
+    border: 5px solid #e7e7e7;
+    background-color: #f3f3f3;
     font-size: 23pt;
 }
 
 li {
-float: left;
+    float: left;
 }
 
 li a {
-  display:inline-block;
-  color: #666;
-  text-align: center;
-  padding: 14px 69px;
-  text-decoration: none;
+    display: inline-block;
+    color: #666;
+    text-align: center;
+    padding: 18px 70px;
+    text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 li a.active {
-  color: white;
-  background-color: #4CAF50;
+    color: white;
+    background-color: #4CAF50;
 }
 
 .mytitle {
-    
+
     font-size: 4em;
     background-color: lightsteelblue;
     width: 60%;
+}
+
+.text {
+
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2em;
+    clear: both;
+}
+
+
+
+.row {
+    width: 100%;
+}
+
+.text2 {
+
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+}
+
+.text3 {
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    width: 90%;
+    clear: both;
+}
+
+.column {
+
+    width: 33%;
+    float: left;
+    padding: 14px 10px;
+
+}
+
+img {
+
+    border: 8px solid lightsteelblue;
+    max-width: 100%;
+}
+
+
+.text4 {
+
+    font-family:
+        font-size:
+}
+
+.text5 {
+    font-size: 2.8em;
+    font-family: 'Amatic SC', cursive;
+
+
+}
+
+.text6 {
+
+
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    padding: 14px 10px;
+
+
+}
+
+.text7 {
+
+    font-family: 'Ubuntu Mono', monospace;
+    width: 90% font-size: 12px;
+
+
+}
+
+.text8 {
+
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 17px;
+
+}
+
+div {
+    padding: 10px 10px 10px 10px;
+}
+
+
+.text9 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 28%;
+    text-align: center;
+    line-height: 10px;
+    font-size: 10px;
+     
 }
